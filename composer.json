@@ -1,0 +1,20 @@
+{
+    "name": "azozzalfiras/qwen-ai",
+    "description": "A PHP package to interact with Qwen AI API for text, image, video generation, and web search.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Azozz ALFiras",
+            "email": "azozzalfiras@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "QwenAI\\": "src/"
+        }
+    }
+}

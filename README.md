@@ -35,6 +35,11 @@ require 'vendor/autoload.php';
 
 use QwenAI\QwenAI;
 
+// Get the API token from the DashScope Console: https://dashscope.console.aliyun.com/
+// Follow these steps:
+// 1. Log in to your Alibaba Cloud account.
+// 2. Navigate to the "API Keys" section in the DashScope Console.
+// 3. Generate a new API key and paste it below.
 $apiToken = 'your_api_token_here';
 $qwen = new QwenAI($apiToken);
 
